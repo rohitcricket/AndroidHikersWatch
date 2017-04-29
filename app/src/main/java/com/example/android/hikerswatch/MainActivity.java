@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
 
-                Log.i("Location info", location.toString());
+                updateLocationInfo(location);
 
 
             }
