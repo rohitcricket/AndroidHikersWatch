@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.i("Placesinfo", listAddresses.get(0).toString());
 
-                address = "";
+                address = "Address: \n";
 
                 if (listAddresses.get(0).getSubThoroughfare() != null) {
                     address += listAddresses.get(0).getSubThoroughfare() + " ";
