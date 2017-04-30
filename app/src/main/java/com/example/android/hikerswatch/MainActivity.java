@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity {
                     address += listAddresses.get(0).getPostalCode() + "\n";
                 }
 
+                if (listAddresses.get(0).getCountryName() != null) {
+                    address += listAddresses.get(0).getCountryName() + "\n";
+                }
+
             }
 
             TextView addressTextView = (TextView) findViewById(R.id.addressTextView);
